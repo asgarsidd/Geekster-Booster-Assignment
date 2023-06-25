@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 16px;
+    font: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.logo{
+    padding: 10px 10px;
+    display: flex;
+   margin-left: 100px;
+
+
+}
+
+.navbar{
+    display: flex;
+   border-bottom: 1px solid white ;
+    height: 54px;
+    margin: 0 0 2px 0;
+    padding: 0 95px 0 95px;
+    
+
+}
+.abs{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.middle-div-nav{
+   float: left;
+    padding-left: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.middle-div-nav p{
+    padding-left: 14px;
+    padding-right: 25px;;
+}
+
+
+/* end section */
+.end-one{
+    padding-left: 40px;
+    height: 54px;
+    display: flex;
+   
+    
+}
+.icons{
+    display: flex;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.icons p{
+    display: flex;
+    text-align: center;
+    padding: 0 20px;
+}
+.all{
+    margin: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.svg{
+    rotate: -90deg;
+   
+}
+.set{
+    rotate: 90deg;
+  
+}
+.set-search{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   
+   
+}
+.para{
+    margin: auto;
+}
+ 
+/* second */
+
+.mid-one{
+position: relative;
+    
+}
+.learn-more{
+    width: 110px;
+    height: 40px;
+    background-color: #005DA5;
+}
+h3{
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.surface9{
+    position: absolute;
+    bottom: 14rem;
+    right: 21rem;
+    /* background-color: black; */
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.more{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 7px  0;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#circle-width{
+    height:24px;
+    width: 10px;
+    margin-right: 23px;
+    padding: 14px 0;
+    cursor: pointer;
+
+}
+.icon-main{
+display: flex;
+justify-content: center;
+padding-top: 30px;
+padding-bottom: 15px;
+
+}
+i{  
+    margin: auto;
+     size: 5px;
+    padding: 5px 10px;
+    align-items: center;
+}
+/* fourth work */
+.link-add{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+.device{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-file{
+    max-width: 40px;
+    height: auto;
+    margin-left: 45px;
+}
+.link-all{
+    margin-top: 10px ;
+    display: flex;
+    justify-content: center;
+    color: #BADBFA;    
+}
