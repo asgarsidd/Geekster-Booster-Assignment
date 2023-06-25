@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
+}
+:root {
+    --primary-color: #2874f0;
+}
+.container{
+    padding: 0 8px;
+}
+/* Header */
+header{
+    background-color: var(--primary-color);
+    height: 56px;
+}
+header .nav-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+header .nav-container .logo {
+    display: flex;
+    min-width: 137px;
+    justify-content: flex-end;
+}
+header .nav-container .logo img {
+    width: 75px;
+}
+header .search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+
+}
+header .search .search-container{
+    width: 540px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0, 0, 0 /23%);
+    display: flex;
+    
+
+}
+header .search .search-container input{
+    width: calc(100% - 32px);
+    padding: 16px;
+    outline: none;
+    border: none;
+}
+
+header .search .search-container button {
+    width: 36px;
+    height: 100%;
+    padding: 0 8px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+header .login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+header .login button {
+    width: 122px;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+header .seller  {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px ;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+header .more {
+    height: 100%;
+    display: flex;
+    align-items: center;
+   margin: 0 20px;
+   color: white;
+   font: 16px;
+   font-weight: 500;
+}
+header .more svg {
+    margin-left: 8px;
+    rotate: -90deg;
+}
+header .cart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+}
+header .cart svg {
+    margin-right: 9px;
+}
+
+/* section1 */
+
+
+section{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+.nav-section{
+    display: flex;
+    margin: 15px;
+    /* padding-bottom: 15px; */
+    
+}
+section .grocery{
+    padding: 8px 0px 50px 50px;
+}
+section .grocery img{
+    height: 64px;
+    width: 64px;
+   
+}
+section .grocery p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+section .grocery img{
+    height: 64px;
+    width: 64px;
+}
+section .grocery p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+section .mobiles img{
+    height: 64px;
+    width: 64px;
+}
+section .mobiles p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+section .fashions img{
+    height: 64px;
+    width: 64px;
+}
+section .fashions p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+section .electronics img{
+    height: 64px;
+    width: 64px;
+}
+section .electronics p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+section .home-furniture img{
+    height: 64px;
+    width: 64px;
+}
+section .home-furniture p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+section .appliances img{
+    height: 64px;
+    width: 64px;
+}
+section .appliances p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+section .travel img{
+    height: 64px;
+    width: 64px;
+}
+section .travel p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+
+section .top-offers img{
+    height: 64px;
+    width: 64px;
+}
+section .top-offers p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+
+section .beauty-toys img{
+    height: 64px;
+    width: 64px;
+}
+section .beauty-toys p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
+
+section .two-Wheelers img{
+    height: 64px;
+    width: 64px;
+}
+section .two-Wheelers p{
+    margin: 0;
+    padding: 10px;
+    font: 14px 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 19.6px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    cursor: pointer;
+}
+
