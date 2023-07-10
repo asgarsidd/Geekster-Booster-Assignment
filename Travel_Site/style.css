@@ -667,7 +667,10 @@ button,input{
   .footer__terms-link:hover {
     color: hsl(190, 24%, 35%);
   }
-  @media screen and (max-width: 768px) {
+  li{
+    list-style: none;
     
-    
+  }
+  a{
+      text-decoration: none;
   }
