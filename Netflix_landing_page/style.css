@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins',sans-serif;
+    
+   
+}
+header{
+    background-image: url('./images/header-image.jpg');
+      height: 80vh; 
+      position: relative;
+}
+.container{
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    align-items: center;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+body{
+    background-color: #000000;
+}
+.content{
+    text-align: center;
+    color: white;
+    margin-top: 263px;
+}
+.logo{
+    width: 148px !important;
+    height: 40px;
+    padding-top: 15px;
+
+}
+.navbar{
+    margin: 0 10%;
+    padding: 14px;
+    height: 80px;
+}
+.conten{
+    display: flex;
+
+}
+.navbar button{
+    color: white;
+    background-color: #232323;
+    font-size: 16px;
+    border: 0.1px solid white;
+    padding: 8px;
+    margin-right: 40px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#btn1{
+    background-color: #e50914;
+    border: none;
+    font-weight:0;
+}
+.btn2 i {
+    padding-right: 7px;
+
+}
+.botton-div{
+    padding-top: 15px
+}
+ .context h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+ .context p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+}
+ .context h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.start input{
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    height: 24px;
+    padding: 17px 20px 9px 16px;
+    border: 0px solid white;
+    border-radius: 8px;
+    background-color:  rgba(0,0,0,0.7);
+    margin-right: 15px;
+    width: 344.75px;
+}
+.btn-start{
+    color: white;
+    background-color: red;
+    padding: 17px 17px 9px 17px;
+    border-radius: 6px;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 900;
+    
+    align-items: center;
+
+}
+.horizontal{
+    border: 4px solid #888888;
+}
+
+
+/* main_section */
+.cls{
+    color: white;
+    margin-left: 40px;
+}
+.cls h1{
+font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.cls p{
+    font-size: 24px;
+
+}
+.horizont{
+    margin-top: 79px;
+    margin-bottom: 13px;
+    border: 4px solid #888888;
+}
+.body-section {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; /
+}
+
+
+
+.left-item {
+        padding-left: 174px;
+    margin-top: 204px;
+    width: 439px;
+
+}
+
+.right-item {
+   
+    position: relative;
+   
+}
+.right-item > video{
+    position: absolute;
+    left: 80px;
+    top:20%;
+    z-index: -1;
+}
+.layout{
+    border: 2px solid #535251;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    width: 25%;
+    bottom: 0;
+    left:25%;
+    width: 50%;
+    display: flex ;
+    justify-content:  center;
+    align-items: center;
+    gap: 20px;
+}
+.layout img{
+     width: 50px;
+}
+.layout p{
+    font-size: 20px;
+    display: flex ;
+    color: white;
+
+}
+.layout p span{
+    padding-top: 30px;
+    padding-right: 8px;
+    color: blue;
+}
+.static-left-item{
+    
+    position: relative;
+}
+
+/* section-faq */
+.faq-container{
+    padding: 49px 227px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.faq-container > h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+margin-bottom: 20px;
+font-weight: 700;
+}
+.faq p , i{
+    color: white;
+    font-weight: 550;
+    font-size: 18px;
+}
+.faq{
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    padding: 25px;
+    background-color: #161616;
+    transition-duration: 0.5s;
+}
+.faq:hover{
+  background-color:#4e4e4e;
+  cursor: pointer;
+}
+.bkg{
+    border: #535251;
+}
+.para{
+    color: white;
+    padding: 30px;
+    font-size: 24px;
+    
+}
+/* footer */
+.footer-container{
+    padding: 100px;
+}
+.footer-container, footer-container a{
+   
+    color: #afafaf;
+}
+.links-item a {
+     color: #afafaf;
+}
+.links-item a:hover{
+    color: #a0a5a8;
+}
+.links-container{
+    color: #888888;
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+    
+}
+.links-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #888888;
+}
+.links-item button{
+     background-color: #232323;
+     color: white;
+     border: 1px solid white;
+     padding: 10px;
+}
+.footer-container p {
+    margin-left: 155px;
+    margin-bottom: 15px;
+}
