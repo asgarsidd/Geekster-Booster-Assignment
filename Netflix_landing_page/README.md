@@ -11,14 +11,17 @@ Uses CSS Properties : Flex, background-color: rgba() for Dim light or low opacit
  
 Screenshots->>
 
-'/home/asgar/Pictures/Screenshots/Netflix-1.png-62:-48:84:48'
+![Alt text]('/home/asgar/Pictures/Screenshots/Netflix-1.png')
 
-'/home/asgar/Pictures/Screenshots/Netflix-2.png'
 
-'/home/asgar/Pictures/Screenshots/Netflix-3.png'
+![Alt text]('/home/asgar/Pictures/Screenshots/Netflix-2.png')
 
-'/home/asgar/Pictures/Screenshots/Netflix-4.png'
 
-'/home/asgar/Pictures/Screenshots/Netflix-5.png'
+![Alt text]('/home/asgar/Pictures/Screenshots/Netflix-3.png')
 
-'/home/asgar/Pictures/Screenshots/Netflix-6.png'
+
+![Alt text]('/home/asgar/Pictures/Screenshots/Netflix-5.png')
+
+
+![Alt text]('/home/asgar/Pictures/Screenshots/Netflix-6.png')
+
