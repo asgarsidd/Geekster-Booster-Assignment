@@ -270,7 +270,7 @@ h2 {
     align-items: center;
 }
 
-.about_image-overlay {}
+
 
 .about_img-one {
     width: 195px;
@@ -327,8 +327,7 @@ h2 {
     align-items: center;
 }
 
-.experience_img .experience_image-overlay{
-}
+
 .experience_image-overlay{
     position: relative;
 }
@@ -625,9 +624,9 @@ button,input{
   }
   
   .footer__social {
-    font-size: 1.25rem;
+ font-size: 1.25rem;
     color: hsl(190,24%,35%);
-    margin-right: 1.25rem;
+    margin-right: 1.1rem;
   }
   
   .footer__subtitle {
@@ -674,3 +673,56 @@ button,input{
   a{
       text-decoration: none;
   }
+  /* @media  screen and (max-width:340px) {
+    .nav{
+            display: none;
+    }
+    .place_container {
+        grid-template-columns: max-content;
+        justify-content: center;
+        padding-left: 20%;
+        
+    }
+    .subscribe_conatiner{
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+  } */
+
+  /* CSS code for responsiveness */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+    .nav__menu {
+      display: none;
+    }
+    .nav__dark {
+      display: flex;
+      align-items: center;
+    }
+    .nav__list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav__item {
+      margin-bottom: 10px;
+    }
+    .footer__content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer__data {
+      text-align: center;
+    }
+    .footer__rights {
+      align-items: center;
+    }
+  }
+  
+  
